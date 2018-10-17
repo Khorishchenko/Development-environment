@@ -10,7 +10,7 @@ int	main(int argc, char* argv[])
 	char string[] = "cppstudio.com";		// объявление символьного массива (строки)
 	
 	cout << "string = " << string << endl;		// печать строки
-	cout << "Для продолжения нажминте на любую клавишу...";
+	cout << "Для продолжения нажминте на Enter...";
 	getchar();
 	return 0;
 }
