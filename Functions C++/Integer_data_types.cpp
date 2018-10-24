@@ -7,12 +7,12 @@ using namespace std;
  
 int	main(int argc, char* argv[])
 {
-	cout << "data type      "   	 << "byte"                      << "      "    << "max value  " << endl // заголовки столбцов
+	cout << "data type      "   	 << 	  "byte"                  << "      "    <<        "max value  " << endl // заголовки столбцов
              << "bool               =  " << sizeof(bool)                << "         " << fixed << setprecision(2)
 /*вычисляем максимальное значение для типа данных bool*/                           << (pow(2,sizeof(bool) * 8.0) - 1)               << endl
-         << "char               =  " << sizeof(char)                << "         " << fixed << setprecision(2)
+             << "char               =  " << sizeof(char)                << "         " << fixed << setprecision(2)
 /*вычисляем максимальное значение для типа данных char*/                           << (pow(2,sizeof(char) * 8.0) - 1)               << endl
-         << "short int          =  " << sizeof(short int)           << "         " << fixed << setprecision(2)
+             << "short int          =  " << sizeof(short int)           << "         " << fixed << setprecision(2)
 /*вычисляем максимальное значение для типа данных short int*/                      << (pow(2,sizeof(short int) * 8.0 - 1) - 1)      << endl
              << "unsigned short int =  " << sizeof(unsigned short int)  << "         " << fixed << setprecision(2)
 /*вычисляем максимальное значение для типа данных unsigned short int*/             << (pow(2,sizeof(unsigned short int) * 8.0) - 1) << endl
