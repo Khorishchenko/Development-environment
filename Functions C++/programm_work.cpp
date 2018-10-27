@@ -23,7 +23,7 @@ int	main()
 	do
 	{
 		cout << "Год рождения Николая Васильевича Гоголя - 1809г.? (да - 1, нет - 2):";
-		cin.getline(nAnswer, 1);
+		cin >> nAnswer;
 		cout << "\n";
 		switch (nAnswer)
 		{
@@ -39,6 +39,8 @@ int	main()
 		}
 	}
 	while (nAnswer != 1);
+	cin.clear();
+	cin.ignore();
 	ShowName();
 	return (0);
 }
