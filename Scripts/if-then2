@@ -1,0 +1,8 @@
+#Воспользуемся имеющимися у нас знаниями и напишем более сложный сценарий. Скажем, надо #найти некоего пользователя в /etc/passwd, и если найти его удалось, сообщить о том, что #он существует.
+
+#!/bin/bash
+user=sergejhorisenko
+if grep $user /etc/passwd
+then
+echo "The user $user Exists"
+fi

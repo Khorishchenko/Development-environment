@@ -1,0 +1,3 @@
+#!/bin/bash
+bash -c 'true <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF' ||
+echo "Уязвим по CVE-2014-7186, redir_stack"

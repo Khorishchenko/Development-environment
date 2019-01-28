@@ -21,7 +21,7 @@ int		main(int argc, char **argv)
 		write(1, "\n", 1);
 	while (argv[1][a] != '\0')
 	{		
-		if (argv[1][a] == '\t' && argv[1][a] == ' ' && argv[1][a] == '\n')
+		if (argv[1][a] == '\t' || argv[1][a] == ' ' || argv[1][a] == '\n')
 			write(1, "\n", 1);
 		else
 			write(1, &argv[1][a], 1);

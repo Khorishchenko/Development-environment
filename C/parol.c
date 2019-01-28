@@ -25,7 +25,7 @@ int	main(int argc, char **argv)
 						f = 1;
 					if (a == 1 && f == 1)
 					{
-						ft_rob();
+                        			printf("Super!\n");
 						return (0);
 					}
 					i++;
