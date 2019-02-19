@@ -1,0 +1,57 @@
+norminette -R CheckForbiddenSourceHeader
+
+Error: file must end with a single empty line
+Error (line 18, col 7): space after (
+Error (line 18, col 18): space before )
+Error (line 23): spaces at the end of line
+Error (line 23, col 0): no newline after block
+
+void	ft_print_numbers(void)
+{
+	int i;
+
+	i = '0';
+	while (i <= '9')
+	{
+		ft_putchar(i);
+		i++;
+	}
+}
+ Пример табл правильо!!!!!
+
+
+https://www.youtube.com/watch?v=lnFeG4DOMcE&list=PL66kIi3dt8A5sa_qBur8uxmtuuwuJQGS1
+
+Chapter II
+Foreword
+Here’s the list of releases for Venom :
+- In League with Satan (single, 1980)
+- Welcome to Hell (1981)
+- Black Metal (1982)
+- Bloodlust (single, 1983)
+- Die Hard (single, 1983)
+- Warhead (single, 1984)
+- At War with Satan (1984)
+- Hell at Hammersmith (EP, 1985)
+- American Assault (EP, 1985)
+- Canadian Assault (EP, 1985)
+- French Assault (EP, 1985)
+- Japanese Assault (EP, 1985)
+- Scandinavian Assault (EP, 1985)
+- Manitou (single, 1985)
+- Nightmare (single, 1985)
+- Possessed (1985)
+- German Assault (EP, 1987)
+- Calm Before the Storm (1987)
+- Prime Evil (1989)
+- Tear Your Soul Apart (EP, 1990)
+- Temples of Ice (1991)
+- The Waste Lands (1992)
+- Venom ’96 (EP, 1996)
+- Cast in Stone (1997)
+- Resurrection (2000)
+- Anti Christ (single, 2006)
+- Metal Black (2006)
+- Hell (2008)
+- Fallen Angels (2011)
+Today’s subject will seem easier if you listen to Venom.

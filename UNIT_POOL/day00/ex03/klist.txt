@@ -1,0 +1,6 @@
+Credentials cache: API:FE6FC65A-21A5-40C8-897D-2EAE62FD9B36
+        Principal: skhorich@UNIT.UA
+
+  Issued                Expires               Principal
+Feb  5 15:44:28 2018  Feb  6 01:44:28 2018  krbtgt/UNIT.UA@UNIT.UA
+Feb  5 16:06:18 2018  Feb  6 01:44:28 2018  host/vogsphere-2.unit.ua@UNIT.UA
