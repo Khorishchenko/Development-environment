@@ -20,7 +20,9 @@ int	main()
 	cout << endl;
 	delete[] dan;
 
-	cout << "Для продолжения нажмите на Enter..." << "\n";
+	cout << "Для продолжения нажмите на Enter...";
+	cin.clear();
+	cin.ignore();
 	getchar();
 	return 0;
 }

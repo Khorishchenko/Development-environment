@@ -1,0 +1,30 @@
+my IP:
+curl ifconfig.me
+
+file - What does file has inside!!!
+
+echo "ls -l" | at midnight — выполнить команду в указанное время.
+wget --random-wait -r -p -e robots=off -U mozilla http://www.example.com — выкачать весь сайт.
+(cd /tmp && ls) — перейти к директории, выполнить там команду, вернуться к предыдущей директории.
+
+cp –ir sourcedir targetdir
+tar –czvf myfiles.tar.gz myfiles
+
+passwd Command
+Used to change your user password.
+Ex:
+Old password:
+New password:
+
+du Command -  Память файлов !!! В директории 
+Calculates the disk usage of a file or a directory.
+Parameters
+-h
+Display human readable form.
+-s
+Summarize the output total size.
+Example
+du –hs /home
+1
+du –hs /home
+

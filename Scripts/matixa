@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+for ((inter = 1; inter <= 30; inter++))
+do
+	for ((iner = 1; iner <= 30; iner++))
+	do
+		echo $iner
+	done
+	
+done
+ 

@@ -16,6 +16,5 @@ int	main(void)
 		ft_putchar(i);
 		i--;
 	}
-//	cout << endl;
 	return (0);
 }
