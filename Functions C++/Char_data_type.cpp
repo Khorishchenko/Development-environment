@@ -10,6 +10,10 @@ int	main(int argc, char* argv[])
 	char string[] = "cppstudio.com";		// объявление символьного массива (строки)
 	
 	cout << "string = " << string << endl;		// печать строки
+/*
+	cin.clear();		Здесь эти функ...
+	cin.ignore();		не работают - только когда задейвс фун cin !!!
+*/
 	cout << "Для продолжения нажминте на Enter...";
 	getchar();
 	return 0;

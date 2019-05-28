@@ -1,13 +1,3 @@
-#include <iostream>
-#include <string>
-using namespace std;
-
-void	ShowName(void)
-{	
-	char	szHisName[10];
-
-	cout << "Введите Ваше имя (латиницей):";
-	cin.getline(szHisName, 10);
 
 	cout << szHisName << ",от всей души поздравляем Вас!!!"
 	     << "Все цветы у Ваших ног," << szHisName << "!!!" << "\n"

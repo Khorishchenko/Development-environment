@@ -39,8 +39,6 @@ int	main()
 	     << " 0x" << (nArg1 ^ nArg2) << "\n" << endl;
 
 	cout << "Нажмите Enter для продолжения ..." << endl;
-	cin.ignore();
-//	cin.get();
-
+	getchar();
 	return (0);
 } 
