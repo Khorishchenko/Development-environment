@@ -6,23 +6,23 @@ char *mx_strstr(const char *haystack, const char *needle)
 	char	*temp_l;
 	char	*slow_temp;
 
-	temp = (char *)big;
-	temp_l = (char *)little;
+	temp = (char *)haystack;
+	temp_l = (char *)needle;
 	slow_temp = temp;
-	if (*little == '\0')
-		return ((char *)big);
-	while (*big)
+	if (*needle == '\0')
+		return ((char *)haystack);
+	while (*haystack)
 	{
-		if (*big == *little)
+		if (*haystack == *needle)
 		{
-			temp = (char *)big;
-			while (*big++ == *little++)
-				if (!(*little))
+			temp = (char *)haystack;
+			while (*haystack++ == *needle++)
+				if (!(*needle))
 					return (temp);
 		}
-		big = slow_temp++;
-		little = temp_l;
-		++big;
+		haystack = slow_temp++;
+		needle = temp_l;
+		++haystack;
 	}
 	return (NULL);
 }

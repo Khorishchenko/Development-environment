@@ -9,3 +9,4 @@ double mx_pow(double n, unsigned int pow)
 	else 
 		return n * mx_pow(n, pow - 1);
 }
+

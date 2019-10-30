@@ -1,7 +1,5 @@
 #include "libmx.h"
 
-int mx_strlen(const char *s);
-
 void mx_printstr(const char *s)
 {
     for(int i = 0, n = mx_strlen(s); i < n; i++)
@@ -10,3 +8,4 @@ void mx_printstr(const char *s)
     }
     write(1, "\n", 1);
 }
+

@@ -16,4 +16,5 @@ void mx_print_alphabet(void)
         c = c + 2;
         b = b + 2;
     }
+    mx_printchar('\n');
 }

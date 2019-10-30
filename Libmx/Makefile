@@ -5,6 +5,7 @@ get_src:
 
 get_inl:
 	cp inc/*.h .
+
 install:
 	clang -std=c11 -Wall -Wextra -Werror -Wpedantic -o man *.c
 
@@ -19,3 +20,4 @@ clean:
 
 reinstal:
 	unistall all
+

@@ -1,11 +1,8 @@
 #include "libmx.h"
 
-void mx_printchar(char c);
-void mx_printint( int n);
-
 void mx_printint(int n)
 {
-	if (n == -2147483648)
+    if (n == -2147483648)
 	{
 		mx_printchar('-');
 		mx_printchar('2');
@@ -26,3 +23,4 @@ void mx_printint(int n)
 		mx_printchar(n % 10 + 48);
 	}
 }
+

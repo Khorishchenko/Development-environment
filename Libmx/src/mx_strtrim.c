@@ -10,27 +10,28 @@ static int	whitespace(char c)
 
 char		*mx_strtrim(const char *str)
 {
-	char	*mem;
+    char	*mem;
 	int		size;
 	int		i;
 	int		j;
 
 	i = -1;
 	j = 0;
-	if (!s)
+	if (!str)
 		return (NULL);
-	size = (int)ft_strlen(s);
+	size = (int)mx_strlen(str);
 	if (!(mem = (char *)malloc((size + 1) * sizeof(char))))
 		return (NULL);
-	if (*s)
+	if (*str)
 	{
-		while (whitespace(s[j]) == 1)
+		while (whitespace(str[j]) == 1)
 			++j;
-		while (whitespace(s[size - 1]) == 1 && (j != size))
+		while (whitespace(str[size - 1]) == 1 && (j != size))
 			--size;
 		while (++i < (size - j))
-			mem[i] = s[j + i];
+			mem[i] = str[j + i];
 	}
 	mem[i] = '\0';
 	return (mem);
 }
+

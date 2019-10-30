@@ -1,6 +1,6 @@
 #include "libmx.h"
 
-char		*mx_strcat(const char *s1, const char *restrict *s2)
+char		*mx_strcat(char *restrict s1, const char *restrict s2)
 {
 	char	*temp;
 
